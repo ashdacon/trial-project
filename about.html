@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Starter Page</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Optional: Simple CSS reset -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #2196f3;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #2196f3;
+      color: white;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #1976d2;
+    }
+    section {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hello, World!</h1>
+    <p>Welcome to your improved starter page</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About This Page</h2>
+      <p>This is a simple HTML template designed for beginners. You can edit the text, add images, and build upon it to create your own website.</p>
+    </section>
+
+    <section>
+      <h2>Interactive Section</h2>
+      <p>Click the button below to see an interactive alert message:</p>
+      <button onclick="sayHello()">Click Me</button>
+    </section>
+
+    <section>
+      <h2>Additional Info</h2>
+      <p>Use semantic tags like <code>&lt;section&gt;</code> and <code>&lt;article&gt;</code> to organize your content. This helps both humans and search engines understand your page better.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function sayHello() {
+      alert("Hi there! This is your first interaction with this page.");
+    }
+  </script>
+</body>
+</html>
